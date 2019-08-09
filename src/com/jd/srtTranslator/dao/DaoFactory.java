@@ -23,7 +23,8 @@ public class DaoFactory {
 
         }
 
-        DaoFactory instance = new DaoFactory("jdbc:mysql://localhost:3306/javaee", "root", "mysql");
+        DaoFactory instance = new DaoFactory("jdbc:google:mysql://jd-rada2:europe-west1:srttranslator/srttranslator", "root", "jd9701");
+        //DaoFactory instance = new DaoFactory("jdbc:mysql://localhost:3306/javaee", "root", "mysql");
         return instance;
     }
 
